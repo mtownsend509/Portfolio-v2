@@ -19,7 +19,7 @@ function Resume() {
             <li>Model-View-Controller paradigm</li>
             <li>Progressive Web Applications</li>
             <li>React</li>
-            <a href = 'https://github.com/mtownsend509/Portfolio-v2/blob/main/public/images/ResCap.PNG?raw=true'download>
+            <a href = '/images/ResCap.PNG' download>
             <li id='resItem'>Click Here to Download my Resume!</li>
             </a>
         </ul>
