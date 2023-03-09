@@ -3,6 +3,7 @@ import './App.css';
 import Aboutme from './components/aboutme';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
+import Resume from './components/resume';
 import Navbar from './components/navbar';
 import React, { useState } from 'react';
 import html from './Assets/images/html and css.png';
@@ -22,6 +23,8 @@ function App() {
       />;
     } else if (currentPage === 'contact') {
       return <Contact />;
+    } else if (currentPage === 'resume') {
+      return <Resume />
     }
   }
 

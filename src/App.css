@@ -206,6 +206,10 @@ p {
     height: 100%;
 }
 
+.error-text {
+    width: 200%;
+}
+
 footer {
     position: fixed;
     bottom: 0;

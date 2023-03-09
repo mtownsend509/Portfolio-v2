@@ -18,7 +18,10 @@ function navbar({ currentPage, pageChange }) {
           onClick={() => pageChange('contact')}>Contact</a>
         </li>
     
-        <li>Resume (coming soon)</li>
+        <li className={currentPage === 'resume' ? 'activeTab' : ''}>
+          <a 
+          onClick={() => pageChange('resume')}>Resume</a>
+        </li>
       </ul>
     );
 }
