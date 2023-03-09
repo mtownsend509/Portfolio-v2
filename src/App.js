@@ -6,7 +6,7 @@ import Contact from './components/contact';
 import Resume from './components/resume';
 import Navbar from './components/navbar';
 import React, { useState } from 'react';
-import html from './Assets/images/html and css.png';
+import html from './images/html and css.png';
 import { SiLinkedin, SiGithub, SiTwitter } from "react-icons/si"
 
 function App() {
