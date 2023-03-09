@@ -210,6 +210,48 @@ p {
     width: 200%;
 }
 
+#resumeDiv {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#resumeDiv h1 {
+    margin-top: 2%;
+}
+
+#skillList {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skillList li {
+    margin-top: 5%;
+    /* list-style-type: unset; */
+}
+
+#skillList a {
+    width: 100%;
+}
+
+#skillList li:hover {
+    cursor: default;
+}
+
+#resItem {
+    border: solid;
+    padding: 3%;
+    background-color: rgba(0,212,255,1);
+    border-color: rgb(110, 71, 128);
+    color: rgb(110, 71, 128);
+}
+
+#resItem:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 10px black;
+}
+
 footer {
     position: fixed;
     bottom: 0;
